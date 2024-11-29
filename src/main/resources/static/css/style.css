@@ -36,10 +36,14 @@ button {
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
+    transition: all 0.4s ease;
+    border-radius: 10px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #45a09F;
+    transform: translateY(-6px);
+    transition-duration: 1s;
 }
 
 .user-details {
@@ -50,6 +54,7 @@ button:hover {
     border-radius: 5px;
     width: 300px;
     text-align: left;
+    word-wrap: break-word;
 }
 
 footer {
