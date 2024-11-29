@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Lookup</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>User Lookup</h1>
+    </header>
+    <main>
+        <div class="form-container">
+            <input type="text" id="username" placeholder="Enter Username">
+            <button onclick="FetchUser()">Get User</button>
+        </div>
+        <div class="user-details" id="userDetails">
+            <p><strong>Username:</strong> <span id="userUsername">N/A</span></p>
+            <p><strong>Email:</strong> <span id="userEmail">N/A</span></p>
+            <p><strong>Password:</strong> <span id="userPassword">N/A</span></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My App</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
